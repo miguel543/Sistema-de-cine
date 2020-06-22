@@ -82,8 +82,8 @@ public class Sistema_cine {
                 JOptionPane.showMessageDialog(null, "Película: "+v);
                 break;
             case 5:
-                b = Integer.parseInt(JOptionPane.showInputDialog("Adulto ($70)\n"
-                        + "Menores de edad ($55)\n"));
+                b = Integer.parseInt(JOptionPane.showInputDialog("Ingresa la cantidad de boletos [Adulto ($70)]\n"
+                        + "[Menores de edad ($55)]\n"));
                 JOptionPane.showMessageDialog(null, "Cantidad de boletos" + b);
                 break;
             case 6:
