@@ -14,7 +14,7 @@ public class SistemaChampions {
         
         //Menu
         do{
-        op = Integer.parseInt(JOptionPane.showInputDialog("Uefa Champions League\n"
+        op = Integer.parseInt(JOptionPane.showInputDialog("Uefa Champions League GP1|GP2|GPF\n"
                 + "1. Octavos de final\n"
                 + "2. Cuartos de final\n"
                 + "3. Semifinales\n"
